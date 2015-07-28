@@ -1,5 +1,3 @@
-require 'minitest/autorun'
-
 # Tests for Alien class
 class TestAlien < Minitest::Test
   def setup
