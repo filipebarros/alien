@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # tests for spaceship class
 class TestSpaceship < Minitest::Test
   def setup

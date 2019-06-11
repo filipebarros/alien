@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'lib/alien'
 require_relative 'lib/spaceship'
 
@@ -14,7 +16,7 @@ while alien.alive?
       alien.kill!
       puts 'The alien was killed!'
     else
-      alien.move([:left, :right].sample)
+      alien.move(%i[left right].sample)
       puts "You missed the alien. The alien is at #{alien.position}"
     end
   else

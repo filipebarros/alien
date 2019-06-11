@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 # Alien class
 class Alien
@@ -38,6 +39,6 @@ class Alien
 
   def calculate_starting_position
     # random between -125 and 125
-    @position = rand(250) - 125
+    @position = rand(-125..124)
   end
 end
