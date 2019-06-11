@@ -1,10 +1,11 @@
-# alien
-Alien Game
+# Alien Game
+
+[![Build Status](https://cloud.drone.io/api/badges/filipebarros/alien/status.svg)](https://cloud.drone.io/filipebarros/alien)
 
 To play the game run:
 
-<code>ruby play.rb</code>
+`ruby play.rb`
 
 To run the tests run:
 
-<code>rake</code>
+`bundle exec rake test`
